@@ -353,5 +353,5 @@ class AnalyzeGasSample(ControlMotor, Sensors):
 
 
 
-
-AnalyzeGasSample().begin_experiment()
+if __name__ == "__main__":
+    AnalyzeGasSample().begin_experiment()
